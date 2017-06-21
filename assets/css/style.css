@@ -21,6 +21,7 @@ header {
 	background-color: white;
 	position: fixed;
 	top: 0%;
+/*	padding: 5% 0%;*/
 }
 h1 {
 	background-color: #4aaaa5;
@@ -30,7 +31,7 @@ h1 {
 	width: 30%;
 	font-size: 2em;
 	border-color: #ffffff;
-	padding: 2% 2%;
+	padding: 1% 2%;
 	margin: 0% 2% 0% 2%;
 }
 h2, h3 {
@@ -45,8 +46,7 @@ h3 {
 	font-size: 1.5em;
 }
 main {
-	margin-top: 12%;
-	margin-bottom: 15%;
+	margin: 10% 0% 10% 0%;
 }
 div.main-content {
 	padding: 2%;
@@ -61,7 +61,7 @@ nav {
 	display: flex;
 	justify-content: space-between;
 	width: 40%;
-	padding: 3% 0% 3% 1%;
+	padding: 1.5% 0% 1% 1%;
 }
 nav > a {
 	color: #6a6b6d;
