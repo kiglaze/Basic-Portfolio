@@ -1,6 +1,7 @@
 body {
 	color: #777777;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/concrete-texture.png");
 	background-color: #dee3ea;
 }
 .connect-menu img {
