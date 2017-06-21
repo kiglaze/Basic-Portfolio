@@ -21,7 +21,7 @@ header {
 	background-color: white;
 	position: fixed;
 	top: 0%;
-/*	padding: 5% 0%;*/
+	z-index: 5;
 }
 h1 {
 	background-color: #4aaaa5;
@@ -44,6 +44,33 @@ h2 {
 }
 h3 {
 	font-size: 1.5em;
+}
+div.portfolio-selections-container {
+}
+div.portfolio-selection {
+	width: 45%;
+	height: 50%;
+	display: inline-block;
+	margin: 0% 2% 1% 0%;
+}
+div.portfolio-selection a {
+	text-decoration: none;
+}
+div.portfolio-selection img {
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+div.portfolio-selection h4 {
+	background-color: #4aaaa5;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	position: relative;
+	bottom: 25px;
+/*	bottom: 3%;*/
+	z-index: 4;
+	padding: 2% 0%;
 }
 main {
 	margin: 10% 0% 10% 0%;
@@ -104,7 +131,7 @@ footer {
 	height: 5%;
 	width: 100%;
 	border-top: 0.5em solid #4aaaa5;
-	padding: 2% 0%;
+	padding: 1% 0%;
 	position: fixed;
 	bottom: 0%;
 	z-index: 5;
