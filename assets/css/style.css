@@ -147,3 +147,6 @@ input.form-submit {
 	border: none;
 	padding: 1% 3%;
 }
+p {
+    text-indent: 50px;
+}
