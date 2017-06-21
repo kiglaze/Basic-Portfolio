@@ -137,7 +137,7 @@ footer {
 	bottom: 0%;
 	z-index: 5;
 }
-input {
+input, .field-area {
 	margin: 2% 0%;
 }
 input.form-submit {
